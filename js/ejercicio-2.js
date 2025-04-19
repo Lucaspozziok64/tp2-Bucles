@@ -13,16 +13,19 @@ Si ingreso un número que no esté dentro del rango de 0 a 10 mostrar un mensaje
 do {
     let nota = parseInt(prompt("Ingrese su nota por favor de: (0-10)"));
 
+    //condicion que controla entrada de dato tipo texto
     if (isNaN(nota)){
         alert("Introduce un numero valido");
         continue;
     }
 
+    //condicion que controla si el dato esta fuera de rango 0 a 10
     if (nota < 0 || nota > 10) {
         alert("Numero erróneo");
         continue;
     }
 
+    //condiciones para las notas con su break
     if (nota >= 0 && nota <= 2){
         alert("Muy deficiente");
         break;
