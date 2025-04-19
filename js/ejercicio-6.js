@@ -10,6 +10,7 @@
 */
 
 for(let numero = 1; numero <= 30; numero++){
+    // bucle interno que repite cada numero tantas veces como su valor
     for(let i = 1; i <= numero; i++){
         document.writeln(numero);
     }
