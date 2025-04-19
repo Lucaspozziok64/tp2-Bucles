@@ -10,3 +10,11 @@ de la siguiente forma : (suponiendo que indica 30).
 22
 1
 */
+
+for(let numero = 50; numero >= 1; numero--){
+    // bucle interno que repite cada numero tantas veces como su valor
+    for(let i = 1; i <= numero; i++){
+        document.writeln(numero);
+    }
+    document.writeln("<br>");
+}
