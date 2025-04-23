@@ -16,18 +16,19 @@ Crea un script que escriba los números del 1 al 500, que indique cuáles son m�
 */
 
 for (let i = 1; i <= 500; i++) {
+    let linea = i.toString();
 
     if (i % 4 == 0) {
-        i += " (Múltiplo de 4)";
+        linea += " (Múltiplo de 4)";
     }
 
     if (i % 9 == 0) {
-        i += " (Múltiplo de 9)";
+        linea += " (Múltiplo de 9)";
     }
 
     if (i % 5 == 0) {
-        i += "<br>————————————————————-<br>";
+        linea += "<br>————————————————————-<br>";
     }
 
-    document.writeln(i + "<br>");
+    document.writeln(linea + "<br>");
 }
