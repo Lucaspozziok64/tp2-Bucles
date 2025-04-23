@@ -14,9 +14,14 @@ Output: ‘L’
 */
 
 while (true) {
-    const dni = prompt("Introduce el numero de DNI (0-99999999) o pulsa Cancelar para salir");
+    const dni = parseInt(prompt("Introduce el numero de DNI (0-99999999) o pulsa Cancelar para salir"));
 
     if(dni === null) {
         break;
+    }
+
+    if(isNaN(dni) || dni === "" || dni < 0 || dni > 99999999 ) {
+        alert("por favor, Introduce un numero valido entre 0 y 99999999");
+        continue;
     }
 }
