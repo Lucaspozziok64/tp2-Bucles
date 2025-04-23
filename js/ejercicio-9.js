@@ -18,6 +18,10 @@ Crea un script que escriba los números del 1 al 500, que indique cuáles son m�
 for (let i = 1; i <= 500; i++) {
     let linea = i.toString();
 
+    if (i % 4 == 0 && i % 9 === 0) {
+        linea += " (Múltiplo de 4 y 9)";
+    }
+
     if (i % 4 == 0) {
         linea += " (Múltiplo de 4)";
     }
