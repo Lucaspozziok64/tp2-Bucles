@@ -9,7 +9,7 @@ Crea script para generar pirámide siguiente con los números del 1 al número q
 ……
 */
 
-let numero = parseInt(prompt("Introduce un número del 1 al 50"));
+const numero = parseInt(prompt("Introduce un número del 1 al 50"));
 
 if (numero > 50 || numero <= 0) {
     alert("El número introducido es mayor a 50 o menor igual a 0");
