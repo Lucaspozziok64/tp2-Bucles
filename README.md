@@ -39,8 +39,8 @@ Tp2-Bucles
 
 ## ▶️ ¿Cómo ejecutar los ejercicios?
 1. Clona el repositorio:
-```
 bash
+```
 git clone https://github.com/Lucaspozziok64/tp2-Bucles.git
 ````
 2. Abre el archivo html/index.html
