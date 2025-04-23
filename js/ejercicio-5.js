@@ -12,3 +12,11 @@ Ejemplo:
 Input:  40773821 
 Output: ‘L’
 */
+
+while (true) {
+    const dni = prompt("Introduce el numero de DNI (0-99999999) o pulsa Cancelar para salir");
+
+    if(dni === null) {
+        break;
+    }
+}
