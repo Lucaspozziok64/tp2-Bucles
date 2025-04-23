@@ -1,6 +1,6 @@
 //Realiza un script que cuente el número de vocales que tiene un texto.
 
-const texto = prompt("Ingrese un texto: ");
+const texto = "Hola que tal";
 let vocales = 0;
 
 if(texto !== null) {
